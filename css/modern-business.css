@@ -1,0 +1,56 @@
+body {
+  padding-top: 54px;
+  background: #cc1c1a;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 92vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(32, 23, 3, 0.5);
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.nav-link:hover {
+    color: #FE2E2E !important;
+}
+
+#button:hover{
+    color: #FE2E2E !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem !important;
+    }
+
+.pb-5, .py-5 {
+    padding-bottom: 1rem!important;
+}
+
+.pt-5, .py-5 {
+    padding-top: 1rem!important;
+}
+
+hr{
+  color: white !important;
+}
+
+@media screen and (max-width: 600px) {
+ #modalCurso{
+        height: 400px;
+ }
+
+}
